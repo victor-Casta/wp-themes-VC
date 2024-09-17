@@ -1,0 +1,303 @@
+/* main */
+
+main {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 1260px;
+  margin: 40px auto;
+}
+
+main .banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+main .banner h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 44px;
+  max-width: 400px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+main .banner p {
+  max-width: 500px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+main .banner a {
+  font-family: "Martian Mono", monospace;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #000;
+  font-size: 13px;
+}
+
+main .banner img {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/* carousel */
+
+main .carousel {
+  max-width: 1260px;
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-end;
+  overflow-x: auto;
+  gap: 80px;
+}
+
+main .carousel img {
+  max-width: 150px;
+}
+
+main .carousel .notion {
+  max-width: 120px;
+}
+
+/* services */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.services .title {
+  display: flex;
+  gap: 50px;
+  margin: 0 0 60px 0;
+}
+
+.services .title h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+  background-color: #b9ff66;
+  padding: 0 5px;
+}
+
+.services .title p {
+  max-width: 500px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+}
+
+.services .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
+  grid-auto-rows: 22rem;
+  gap: 40px;
+}
+
+.services .cards article {
+  height: 353px;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 14px 17px 0px 0px rgba(0, 0, 0, 0.942);
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.services .cards .dark-card {
+  height: 353px;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 14px 17px 0px 0px rgba(0, 0, 0, 0.942);
+  border: 1px solid #FFF;
+  border-radius: 10px;
+}
+
+.services .cards article div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services .cards .light-card div h3 {
+  background-color: #b9ff66;
+  width: fit-content;
+}
+
+.services .cards .dark-card div h3 {
+  background-color: #fff;
+  width: fit-content;
+  color: #000 !important;
+}
+
+.services .cards .dark-card div h3,
+.services .cards .dark-card div .link-card a {
+  color: #fff;
+}
+
+.services .cards article div h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.services .cards article div .link-card {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.services .cards article div .link-card a {
+  font-family: "Space Grotesk", sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+  font-size: 18px;
+}
+
+.services .cards .light-card div.link-card img,
+.services .cards .dark-card div.link-card img {
+  max-width: 40px;
+  rotate: 40deg;
+}
+
+.services .cards article picture img {
+  max-height: 330px;
+}
+
+.services .contact {
+  height: fit-content;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  background-color: #F3F3F3;
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+}
+
+.services .contact div:nth-child(1) {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.services .contact div:nth-child(1) h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.services .contact div:nth-child(1) p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.services .contact div:nth-child(1) a {
+  width: fit-content;
+  padding: 0 20px;
+  font-family: "Martian Mono", monospace;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #000;
+  font-size: 13px;
+}
+
+.services .contact div:nth-child(2) picture img {
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  top: -50px;
+  right: 20px;
+}
+
+
+.case-study {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.case-study .title {
+  display: flex;
+  margin: 0 0 50px 0;
+}
+
+.case-study .title h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+  background-color: #b9ff66;
+  padding: 0 5px;
+  margin-right: 50px;
+}
+
+.case-study .title p {
+  max-width: 500px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+}
+
+.case-study .principal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 70px;
+  background-color: #000;
+  border-radius: 30px;
+}
+
+.case-study .principal-container p,
+.case-study .principal-container a {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.case-study .principal-container .link {
+  display: flex;
+  gap: 10px;
+}
+
+.case-study .principal-container .content .link a {
+  text-decoration: none;
+  color: #b9ff66;
+}
+
+.case-study .principal-container .content .link img {
+  width: 20px;
+  height: 20px;
+  rotate: -30deg;
+}
+
+.case-study .principal-container .content2 {
+  border-left: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  padding: 0 25px;
+}
