@@ -6,28 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YardSale</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
-  <!-- DaisyUI & Tailwind CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script defer src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Custom CSS Files -->
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main_content.css">
-
-  <!-- Custom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script defer src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
-  <script defer src="<?php echo get_template_directory_uri(); ?>/js/slide-animation.js"></script>
-
+  <?php wp_head(); ?>
 </head>
 
 
