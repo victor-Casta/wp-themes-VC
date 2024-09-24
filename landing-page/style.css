@@ -11,6 +11,10 @@ license: MIT
 Text domain: yardSale
 */
 
+body {
+  min-width: 420px;
+}
+
 header {
   width: 100%;
   padding: 0 20px;

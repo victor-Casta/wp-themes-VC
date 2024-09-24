@@ -29,6 +29,13 @@
   .services .contact div:nth-child(2) picture img {
     display: none;
   }
+  .case-study .principal-container {
+    flex-direction: column;
+  }
+  .case-study .principal-container .content2 {
+    border: none !important;
+    padding: 0 !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -47,6 +54,14 @@
     display: none;
   }
   .services .cards article {
-    width: 70%;
+    width: 90%;
+    margin: 0 auto !important;
+  }
+  .case-study .principal-container {
+    flex-direction: column;
+  }
+  .case-study .principal-container .content2 {
+    border: none !important;
+    padding: 0 !important;
   }
 }

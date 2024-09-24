@@ -16,18 +16,18 @@
     </picture>
   </section>
   <section class="carousel">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/amazon.svg" alt="amazon">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/dribble.svg" alt="dribble">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/hubspot.svg" alt="hubspot">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/notion.svg" class="notion" alt="notion">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/netflix.svg" alt="netflix">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/zoom.svg" alt="zoom">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/amazon.svg" alt="amazon">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/dribble.svg" alt="dribble">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/hubspot.svg" alt="hubspot">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/notion.svg" class="notion" alt="notion">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/netflix.svg" alt="netflix">
-    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>./assets/icons/zoom.svg" alt="zoom">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/amazon.svg" alt="amazon">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/dribble.svg" alt="dribble">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/hubspot.svg" alt="hubspot">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/notion.svg" class="notion" alt="notion">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/netflix.svg" alt="netflix">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/zoom.svg" alt="zoom">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/amazon.svg" alt="amazon">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/dribble.svg" alt="dribble">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/hubspot.svg" alt="hubspot">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/notion.svg" class="notion" alt="notion">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/netflix.svg" alt="netflix">
+    <img class="carousel-item" src="<?php echo get_template_directory_uri(); ?>/assets/icons/zoom.svg" alt="zoom">
   </section>
   <section class="services">
     <div class="title">
@@ -42,12 +42,12 @@
             <h3>optimization</h3>
           </div>
           <div class="link-card">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/icons/arrow.svg" alt="arrow">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/arrow.svg" alt="arrow">
             <a>learn more</a>
           </div>
         </div>
         <picture>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/images/img4.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.png" alt="">
         </picture>
       </article>
       <article class="dark-card">
@@ -57,12 +57,12 @@
             <h3>optimization</h3>
           </div>
           <div class="link-card">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/icons/arrow2.svg" alt="arrow">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/arrow2.svg" alt="arrow">
             <a>learn more</a>
           </div>
         </div>
         <picture>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/images/img4.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.png" alt="">
         </picture>
       </article>
       <article class="dark-card">
@@ -72,12 +72,12 @@
             <h3>optimization</h3>
           </div>
           <div class="link-card">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/icons/arrow2.svg" alt="arrow">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/arrow2.svg" alt="arrow">
             <a>learn more</a>
           </div>
         </div>
         <picture>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/images/img4.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.png" alt="">
         </picture>
       </article>
       <article class="light-card">
@@ -87,12 +87,12 @@
             <h3>optimization</h3>
           </div>
           <div class="link-card">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/icons/arrow.svg" alt="arrow">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/arrow.svg" alt="arrow">
             <a>learn more</a>
           </div>
         </div>
         <picture>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/images/img4.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.png" alt="">
         </picture>
       </article>
     </div>
@@ -108,7 +108,7 @@
       </div>
       <div>
         <picture>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/images/img6.svg" class="contanct-image" alt="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img6.svg" class="contanct-image" alt="image">
         </picture>
       </div>
     </div>
@@ -125,7 +125,7 @@
         </p>
         <div class="link">
           <a href="/">read more</a>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/icons/arrow3.svg" alt="arrow">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/arrow3.svg" alt="arrow">
         </div>
       </div>
       <div class="content2 content">
@@ -134,7 +134,7 @@
         </p>
         <div class="link">
           <a href="/">read more</a>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/icons/arrow3.svg" alt="arrow">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/arrow3.svg" alt="arrow">
         </div>
       </div>
       <div class="content3 content">
@@ -143,7 +143,7 @@
         </p>
         <div class="link">
           <a href="/">read more</a>
-          <img src="<?php echo get_template_directory_uri(); ?>./assets/icons/arrow3.svg" alt="arrow">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/arrow3.svg" alt="arrow">
         </div>
       </div>
     </div>
