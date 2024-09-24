@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="emerald">
+<html <?php language_attributes() ?> data-theme="emerald">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="<?php bloginfo("charset") ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YardSale</title>
 
   <?php wp_head(); ?>
 </head>
 
-
 <body>
+  <?php wp_body_open() ?>
   <header>
     <section>
       <picture class="logo">
-        <a href="/">
+        <a href="<?php echo home_url() ?>">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logoipsum.svg" alt="logo">
         </a>
       </picture>
@@ -22,10 +21,10 @@
     <section>
       <ul>
         <li><a href="">about us</a></li>
-        <li><a href="">services</a></li>  
+        <li><a href="">services</a></li>
         <li><a href="">use cases</a></li>
         <li><a href="">pricing</a></li>
-        <li><a href="">Blog</a></li>
+        <li><a href="/Blog">Blog</a></li>
       </ul>
       <a href="/" class="button__header">request a quote</a>
     </section>
@@ -38,7 +37,7 @@
           <li><a href="">services</a></li>
           <li><a href="">use cases</a></li>
           <li><a href="">pricing</a></li>
-          <li><a href="">blog</a></li>
+          <li><a href="/Blog">blog</a></li>
         </ul>
         <a href="/" class="button__header">request a quote</a>
       </nav>
