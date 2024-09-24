@@ -30,8 +30,10 @@ header {
   font-size: 14px;
 }
 
-header section:nth-child(2) {
+header section:nth-child(2),
+header section:nth-child(2) .menu-test-container ul {
   display: flex;
+  flex-direction: row;
   gap: 30px;
 }
 

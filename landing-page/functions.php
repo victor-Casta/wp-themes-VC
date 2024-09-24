@@ -30,4 +30,26 @@ function plz_assets() {
     <?php
   }
   add_action('wp_body_open','plz_analitycs');
+
+  function plz_theme_supports() {
+    add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+    add_theme_support( 'menus' );
+    add_theme_support('custom-logo', array(
+      'height'      => 40,
+      'width'       => 100,
+      'flex-height' => true,
+      'flex-width'  => true,
+      'header-text' => array( 'Site Title', 'Site Description' ),
+    ));
+  }
+
+  add_action("after_setup_theme", "plz_theme_supports");
+
+
+  function cc_mime_types($mimes) {
+      $mimes['svg'] = 'image/svg+xml';
+      return $mimes;
+    }
+  add_filter('upload_mimes', 'cc_mime_types');
 ?>

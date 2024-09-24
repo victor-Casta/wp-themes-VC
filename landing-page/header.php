@@ -13,19 +13,11 @@
   <header>
     <section>
       <picture class="logo">
-        <a href="<?php echo home_url() ?>">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logoipsum.svg" alt="logo">
-        </a>
+        <?php the_custom_logo() ?>
       </picture>
     </section>
     <section>
-      <ul>
-        <li><a href="">about us</a></li>
-        <li><a href="">services</a></li>
-        <li><a href="">use cases</a></li>
-        <li><a href="">pricing</a></li>
-        <li><a href="/Blog">Blog</a></li>
-      </ul>
+      <?php wp_nav_menu(); ?>
       <a href="/" class="button__header">request a quote</a>
     </section>
     <section class="mobile-menu__header">
