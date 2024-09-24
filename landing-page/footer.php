@@ -1,7 +1,5 @@
     <footer class="footer footer-center bg-black text-base-content p-4">
-      <aside>
-        <p>Copyright © <?php echo date("Y/m/d") ?> - All right reserved by ACME Industries Ltd</p>
-      </aside>
+      <?php dynamic_sidebar('pie-de-pagina') ?>
     </footer>
     <?php wp_footer(); ?>
   </body>

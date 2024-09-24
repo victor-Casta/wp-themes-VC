@@ -46,6 +46,17 @@ function plz_assets() {
 
   add_action("after_setup_theme", "plz_theme_supports");
 
+  function plz_sidebar_widget(){
+    register_sidebar(array(
+      'name'=> 'pie de pagina',
+      'id'=> 'pie-de-pagina',
+      'before_widget'=> '',
+      'after_widget'=> ''
+    ));
+  }
+
+  add_action('widgets_init', 'plz_sidebar_widget');
+
 
   function cc_mime_types($mimes) {
       $mimes['svg'] = 'image/svg+xml';
