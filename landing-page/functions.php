@@ -13,6 +13,7 @@ function plz_assets() {
     wp_enqueue_style("styles-principal", get_template_directory_uri() . "/style.css", array("martial-font", "grotesk-font", "tailwind", "daisy-ui"), null, "all");
     wp_enqueue_style("styles-responsive", get_template_directory_uri() . "/css/responsive.css", array("styles-principal"), null, "all");
     wp_enqueue_style("styles-main", get_template_directory_uri() . "/css/main_content.css", array("styles-principal"), null, "all");
+    wp_enqueue_style("styles-blog", get_template_directory_uri() . "/css/blog.css", array("styles-principal"), null, "all" );
 
     // Registrar y enqueue de GSAP script
     wp_register_script("gsap", "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js", array(), "3.12.5", true);
