@@ -40,6 +40,10 @@ Los testimonios de clientes son esenciales para aumentar la credibilidad. Este d
 - **Avatares e imágenes** que añaden autenticidad.
 - **Distribución simple** que mantiene la lectura fluida.
 
+###  **Blog**
+
+![Mockup 3](https://firebasestorage.googleapis.com/v0/b/assets-3ce98.appspot.com/o/704shots_so.png?alt=media&token=fae2dce9-2295-4ea2-9fa2-57c723b04bde)
+
 ---
 
 ## 💡 Resumen
